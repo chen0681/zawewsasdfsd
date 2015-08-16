@@ -1,0 +1,21 @@
+{
+  "name": "sourceview",
+  "version": "1.0.0",
+  "homepage": "https://github.com/chen0681/zawewsasdfsd",
+  "authors": [
+    "chen0681 <2121@212.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "requirejs": "~2.1.20",
+    "angular-bootstrap": "~0.13.3"
+  }
+}
