@@ -364,6 +364,7 @@ var builders = {
          */
         build: function(opts) {
             var wrapper = path.join(ROOT, 'gradlew');
+			//var wrapper = 'gradle ';
             var args = this.getArgs(opts.buildType == 'debug' ? 'debug' : 'release', opts);
             return Q().then(function() {
                 console.log('Running: ' + wrapper + ' ' + args.join(' '));
