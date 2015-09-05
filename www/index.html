@@ -10,18 +10,38 @@
 		<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
 		<link rel="stylesheet" type="text/css" href="css/ui-bootstrap-csp.css">
 		<script type="text/javascript" src="cordova.js"></script>
-		<script type="text/javascript" data-main="main" src="js/requirejs/require.js"></script>
-		<script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="cordova_plugins.js"></script>
+        <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<script type="text/javascript" data-main="js/index" src="js/requirejs/require.js"></script>
         <title>Source View</title>
     </head>
     <body>
-        <div class="app">
-            <h1>Apache Cordova</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
-            </div>
+    	<header >
+            <nav id="header" class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                    Source View
+                    <a class="btn pull-right" href="#">
+                        <span class="glyphicons glyphicons-cogwheel"></span>
+                    </a>
+                </div>
+            </nav>
+    	</header>
+        <div id="main" class="container-fluid">
+            Hello world
         </div>
-        
+
+        <footer>
+            <nav id="header" class="navbar navbar-default navbar-fixed-bottom">
+                    <ul class="nav nav-tabs nav-pills">
+                        <li role="presentation" class="active"><a href="#">Home</a></li>
+                        <li role="presentation"><a href="#">Profile</a></li>
+                        <li role="presentation"><a href="#">Messages</a></li>
+                    </ul>
+            </nav>
+        </footer>
     </body>
 </html>

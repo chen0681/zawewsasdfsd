@@ -1,0 +1,291 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"require",
+				"requirejs"
+			],
+			[
+				"a",
+				"ajax	$.ajax()"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "www/index.html",
+			"settings":
+			{
+				"buffer_size": 2229,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.txt",
+			"settings":
+			{
+				"buffer_size": 722,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"requ",
+				"Snippet: Require (constructor)"
+			],
+			[
+				"require",
+				"Snippet: Require"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"angular",
+				"AngularJS: Toggle - Enable data- Prefix"
+			],
+			[
+				"jquery",
+				"Snippet: jQuery.each"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Bookmarks: Clear All"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/F/dev/workspace/zawewsasdfsd-master/platforms/android/assets/www/cordova_plugins.js",
+		"/F/dev/workspace/zawewsasdfsd-master/plugins/cordova-plugin-file/src/android/AssetFilesystem.java",
+		"/F/dev/workspace/zawewsasdfsd-master/bower_components/bootstrap/dist/css/bootstrap-theme.min.css",
+		"/F/dev/workspace/zawewsasdfsd-master/www/css/bootstrap-theme.min.css",
+		"/F/dev/workspace/zawewsasdfsd-master/www/css/ui-bootstrap-csp.css",
+		"/F/dev/workspace/zawewsasdfsd-master/bower_components/angular-bootstrap/ui-bootstrap-csp.css",
+		"/F/dev/workspace/zawewsasdfsd-master/platforms/android/assets/www/index.html",
+		"/F/dev/workspace/zawewsasdfsd-master/platforms/android/platform_www/cordova.js",
+		"/F/dev/workspace/zawewsasdfsd-master/plugins/cordova-plugin-device/plugin.xml",
+		"/F/dev/workspace/zawewsasdfsd-master/plugins/android.json",
+		"/F/dev/workspace/zawewsasdfsd-master/config.xml",
+		"/F/dev/workspace/zawewsasdfsd-master/plugins/cordova-plugin-whitelist/plugin.xml",
+		"/F/dev/workspace/zawewsasdfsd-master/plugins/cordova-plugin-splashscreen/plugin.xml",
+		"/F/dev/workspace/zawewsasdfsd-master/plugins/cordova-plugin-splashscreen/www/splashscreen.js",
+		"/F/dev/workspace/zawewsasdfsd-master/plugins/cordova-plugin-file/www/android/FileSystem.js",
+		"/F/dev/workspace/zawewsasdfsd-master/plugins/cordova-plugin-file/www/File.js",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/F/dev/workspace/zawewsasdfsd-master/platforms/platforms.json",
+		"/F/dev/workspace/zawewsasdfsd-master/bower_components/angular/index.js",
+		"/D/Program Files/Sublime Text 2/sublime_text.exe",
+		"/F/dev/workspace/zawewsasdfsd-master/bower_components/angular-bootstrap/ui-bootstrap-tpls.js.dump",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/AngularJS/AngularJS-js-completions.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/User/Distraction Free.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/User/HTML.sublime-settings"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"glyphicons",
+			"cogwheel",
+			"3342\n",
+			"\n",
+			"\n\n\n\n",
+			"\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "www/index.html",
+					"settings":
+					{
+						"buffer_size": 2229,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1129,
+								1129
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 330.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "README.txt",
+					"settings":
+					{
+						"buffer_size": 722,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								722,
+								722
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 198.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"bootstrap-theme.min.css",
+				"bower_components/bootstrap/dist/css/bootstrap-theme.min.css"
+			],
+			[
+				"ui-bootstrap-csp",
+				"www/css/ui-bootstrap-csp.css"
+			],
+			[
+				"index.js",
+				"bower_components/angular/index.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 148.0,
+	"status_bar_visible": true
+}
