@@ -15,22 +15,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "www/index.html",
-			"settings":
-			{
-				"buffer_size": 2229,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "README.txt",
-			"settings":
-			{
-				"buffer_size": 722,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -92,6 +76,10 @@
 	},
 	"file_history":
 	[
+		"/E/projects/iphone_project/sourceview/sourceview.sublime-workspace",
+		"/E/projects/iphone_project/sourceview/sourceview.sublime-project",
+		"/E/projects/iphone_project/sourceview/README.txt",
+		"/E/projects/iphone_project/sourceview/www/index.html",
 		"/F/dev/workspace/zawewsasdfsd-master/platforms/android/assets/www/cordova_plugins.js",
 		"/F/dev/workspace/zawewsasdfsd-master/plugins/cordova-plugin-file/src/android/AssetFilesystem.java",
 		"/F/dev/workspace/zawewsasdfsd-master/bower_components/bootstrap/dist/css/bootstrap-theme.min.css",
@@ -158,63 +146,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "www/index.html",
-					"settings":
-					{
-						"buffer_size": 2229,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1129,
-								1129
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 330.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "README.txt",
-					"settings":
-					{
-						"buffer_size": 722,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								722,
-								722
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 198.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
