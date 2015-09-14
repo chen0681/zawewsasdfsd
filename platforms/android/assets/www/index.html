@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+        <meta charset="utf-8">
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
@@ -9,51 +9,25 @@
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-		<link rel="stylesheet" type="text/css" href="css/default.css">
+		<link rel="stylesheet" type="text/css" href="css/atelier-seaside.dark.css">
         <script type="text/javascript" src="js/highlight/highlight.pack.min.js"></script>
         <script type="text/javascript" src="js/jquery/jquery.js"></script>
-        <script>$(document).ready(function() {
-  $('pre code').each(function(i, block) {
-    hljs.highlightBlock(block);
-  });
-});</script>
 		<script type="text/javascript" src="cordova.js"></script>
-		<script type="text/javascript" data-main="" src="js/requirejs/require.js"></script>
+		<script type="text/javascript" data-main="js/index.js" src="js/requirejs/require.js"></script>
         
         <title>Source View</title>
     </head>
     <body>
         <div class="container-fluid">
-        	<header >
-                <nav id="header" class="navbar navbar-fixed-top">
-                    <a class="btn pull-right icon-cog" href="#">
-                    </a>
-                </nav>
-        	</header>
             <section >
-                <div id="main" class="container">
-                    <pre><code class="hljs">package l2f.gameserver.model;
-
-import java.util.ArrayList;
-public abstract class L2Character extends L2Object {
-  public static final Short ABNORMAL_EFFECT_BLEEDING = 0x0_0_0_1; // not sure
-
-  public void moveTo(int x, int y, int z) {
-    _ai = null;
-    _log.warning("Should not be called");
-    if (1 > 5) {
-      return;
-    }
-  }
-}</code></pre>
-                </div>
+               
             </section >
             <footer>
                 <nav id="header" class="navbar navbar-default navbar-fixed-bottom">
                         <ul class="nav nav-tabs nav-pills">
-                            <li role="presentation" class="active"><a href="#">Home</a></li>
-                            <li role="presentation"><a href="#">Profile</a></li>
-                            <li role="presentation"><a href="#">Messages</a></li>
+                            <li class="active"><a href="#">Home</a></li>
+                            <li ><a href="#">Profile</a></li>
+                            <li ><a href="#">Messages</a></li>
                         </ul>
                 </nav>
             </footer>

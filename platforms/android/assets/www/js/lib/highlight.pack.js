@@ -621,7 +621,7 @@ function blockText(block, ignoreNewLines) {
     return value;
   }
   
-  function highlightBlock(block, tabReplace, useBR, lineNodes) {
+  function highlightBlock2(block, tabReplace, useBR, lineNodes) {
     var text = blockText(block, useBR);
     var language = blockLanguage(block);
     if (isNotHighlighted(language))
@@ -728,6 +728,7 @@ function blockText(block, ignoreNewLines) {
   hljs.listLanguages = listLanguages;
   hljs.getLanguage = getLanguage;
   hljs.inherit = inherit;
+  hljs.highlightBlock2 = highlightBlock2;
 
   // Common regexps
   hljs.IDENT_RE = '[a-zA-Z]\\w*';
