@@ -1,45 +1,104 @@
-require.config({
-     //By default load any module IDs from js/lib
-    baseUrl: 'js/lib',
-    //except, if the module ID starts with "app",
-    //load it from the js/app directory. paths
-    //config is relative to the baseUrl, and
-    //never includes a ".js" extension since
-    //the paths config could be for a directory.
-    paths: {
-        app: '../app'
+angular.module('todo.io', ['ionic', 'todo.io.directives', 'todo.io.filters', 'todo.io.services', 'todo.io.controllers', 'nsPopover'])
+
+.run(function($ionicPlatform) {
+  $ionicPlatform.ready(function() {
+    if (window.cordova && window.cordova.plugins && window.cordova.plugins.Keyboard) {
+      cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
+      cordova.plugins.Keyboard.disableScroll(true);
+
     }
+    if(window.StatusBar) {
+      StatusBar.styleDefault();
+    }
+  });
+})
+
+.config(function($stateProvider, $urlRouterProvider) {
+  $stateProvider
+
+     .state('tutorial', {
+        url: '/',
+        templateUrl: 'templates/tutorial.html',
+        controller: 'TutorialCtrl'
+     })
+
+    .state('app', {
+      url: "/app",
+      abstract: true,
+      templateUrl: "templates/menu.html",
+      controller: 'AppCtrl'
+    })
+
+    .state('app.todolist', {
+      url: "/todolist/:groupId",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/todo_list.html",
+          controller: 'TodolistsCtrl'
+        }
+      }
+    })
+
+    .state('app.todolistedit', {
+      url: "/todolist/edit/:groupId",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/todo_list_edit.html",
+          controller: 'TodolistsEditCtrl'
+        }
+      }
+    })
+
+    .state('app.todoinfo', {
+      url: "/todo/:todoId",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/todo_info.html",
+          controller: 'TodoCtrl'
+        }
+      }
+    })
+
+    .state('app.grouplist', {
+      url: "/group",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/group_list.html",
+          controller: 'GrouplistCtrl'
+        }
+      }
+    })
+
+    .state('app.groupinfo', {
+      url: "/group/:groupId",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/group_info.html",
+          controller: 'GroupCtrl'
+        }
+      }
+    })
+
+    .state('app.search', {
+      url: "/search",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/search.html",
+          controller: 'SearchCtrl'
+        }
+      }
+    })
+
+    .state('app.settings', {
+      url: "/settings",
+      views: {
+        'menuContent' :{
+          templateUrl: "templates/settings.html",
+          controller: 'SettingsCtrl'
+        }
+      }
+    });
+
+  $urlRouterProvider.otherwise('/');
 });
-var app = {
-    // Application Constructor
-    initialize: function() {
-        this.bindEvents();
-    },
-    // Bind Event Listeners
-    //
-    // Bind any events that are required on startup. Common events are:
-    // 'load', 'deviceready', 'offline', and 'online'.
-    bindEvents: function() {
-        document.addEventListener('deviceready', this.onDeviceReady, false);
-    },
-    // deviceready Event Handler
-    //
-    // The scope of 'this' is the event. In order to call the 'receivedEvent'
-    // function, we must explicitly call 'app.receivedEvent(...);'
-    onDeviceReady: function() {
-        app.receivedEvent('deviceready');
-    },
-    // Update DOM on a Received Event
-    receivedEvent: function(id) {
-        var parentElement = document.getElementById(id);
-        var listeningElement = parentElement.querySelector('.listening');
-        var receivedElement = parentElement.querySelector('.received');
-
-        listeningElement.setAttribute('style', 'display:none;');
-        receivedElement.setAttribute('style', 'display:block;');
-
-        console.log('Received Event: ' + id);
-    }
-};
-
-app.initialize();
+ 

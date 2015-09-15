@@ -9,10 +9,6 @@
                 "parents": {
                     "/*": [
                         {
-                            "xml": "<feature name=\"Device\"><param name=\"android-package\" value=\"org.apache.cordova.device.Device\" /></feature>",
-                            "count": 1
-                        },
-                        {
                             "xml": "<feature name=\"NetworkStatus\"><param name=\"android-package\" value=\"org.apache.cordova.networkinformation.NetworkManager\" /></feature>",
                             "count": 1
                         },
@@ -29,11 +25,23 @@
                             "count": 1
                         },
                         {
+                            "xml": "<feature name=\"InAppBrowser\"><param name=\"android-package\" value=\"org.apache.cordova.inappbrowser.InAppBrowser\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Device\"><param name=\"android-package\" value=\"org.apache.cordova.device.Device\" /></feature>",
+                            "count": 1
+                        },
+                        {
                             "xml": "<feature name=\"SplashScreen\"><param name=\"android-package\" value=\"org.apache.cordova.splashscreen.SplashScreen\" /><param name=\"onload\" value=\"true\" /></feature>",
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"InAppBrowser\"><param name=\"android-package\" value=\"org.apache.cordova.inappbrowser.InAppBrowser\" /></feature>",
+                            "xml": "<feature name=\"StatusBar\"><param name=\"android-package\" value=\"org.apache.cordova.statusbar.StatusBar\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"DatePickerPlugin\"><param name=\"android-package\" value=\"com.plugin.datepicker.DatePickerPlugin\" /></feature>",
                             "count": 1
                         }
                     ]
@@ -56,9 +64,6 @@
         }
     },
     "installed_plugins": {
-        "cordova-plugin-device": {
-            "PACKAGE_NAME": "com.fs.sourceview"
-        },
         "cordova-plugin-network-information": {
             "PACKAGE_NAME": "com.fs.sourceview"
         },
@@ -71,10 +76,22 @@
         "cordova-plugin-dialogs": {
             "PACKAGE_NAME": "com.fs.sourceview"
         },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.fs.sourceview"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.fs.sourceview"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.fs.sourceview"
+        },
         "cordova-plugin-splashscreen": {
             "PACKAGE_NAME": "com.fs.sourceview"
         },
-        "cordova-plugin-inappbrowser": {
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.fs.sourceview"
+        },
+        "cordova-plugin-datepicker": {
             "PACKAGE_NAME": "com.fs.sourceview"
         }
     },
