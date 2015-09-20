@@ -19,9 +19,7 @@ angular.module('todo.io.controllers', [])
     // 向导页面只显示一次
     startApp();
   } else {
-    setTimeout(function () {
-      navigator.splashscreen.hide();
-    }, 750);
+    startApp();
   }
 
   // "立即体验"按钮Event

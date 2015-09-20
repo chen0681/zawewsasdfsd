@@ -22,6 +22,7 @@ angular.module('todo.io', ['ionic', 'todo.io.directives', 'todo.io.filters', 'to
         controller: 'TutorialCtrl'
      })
 
+
     .state('app', {
       url: "/app",
       abstract: true,
@@ -101,4 +102,4 @@ angular.module('todo.io', ['ionic', 'todo.io.directives', 'todo.io.filters', 'to
 
   $urlRouterProvider.otherwise('/');
 });
- 
+
